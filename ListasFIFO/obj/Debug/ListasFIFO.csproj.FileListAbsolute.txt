@@ -1,0 +1,9 @@
+\\mac\home\documents\visual studio 2015\Projects\ListasFIFO\ListasFIFO\bin\Debug\ListasFIFO.exe.config
+\\mac\home\documents\visual studio 2015\Projects\ListasFIFO\ListasFIFO\bin\Debug\ListasFIFO.exe
+\\mac\home\documents\visual studio 2015\Projects\ListasFIFO\ListasFIFO\bin\Debug\ListasFIFO.pdb
+\\mac\home\documents\visual studio 2015\Projects\ListasFIFO\ListasFIFO\obj\Debug\ListasFIFO.csprojResolveAssemblyReference.cache
+\\mac\home\documents\visual studio 2015\Projects\ListasFIFO\ListasFIFO\obj\Debug\ListasFIFO.Form1.resources
+\\mac\home\documents\visual studio 2015\Projects\ListasFIFO\ListasFIFO\obj\Debug\ListasFIFO.Properties.Resources.resources
+\\mac\home\documents\visual studio 2015\Projects\ListasFIFO\ListasFIFO\obj\Debug\ListasFIFO.csproj.GenerateResource.Cache
+\\mac\home\documents\visual studio 2015\Projects\ListasFIFO\ListasFIFO\obj\Debug\ListasFIFO.exe
+\\mac\home\documents\visual studio 2015\Projects\ListasFIFO\ListasFIFO\obj\Debug\ListasFIFO.pdb
