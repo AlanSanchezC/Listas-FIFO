@@ -29,7 +29,7 @@ namespace ListasFIFO
         private void button1_Click(object sender, EventArgs e)
         {
             //Ciclo de 200
-            for (int i = 1; i <= 15; i++)
+            for (int i = 1; i <= 200; i++)
             {
                 int num = r.Next(1, 5);
                 if (num == 1)
