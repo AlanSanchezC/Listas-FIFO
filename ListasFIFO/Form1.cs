@@ -34,7 +34,7 @@ namespace ListasFIFO
                 int num = r.Next(1, 5);
                 if (num == 1)
                 {
-                    Proceso p1 = new Proceso();
+                    Proceso p1 = new Proceso(r.Next(4, 15));
                     if (colaTortillas.sacarElemento() != null)
                     {
                         colaTortillas.agregar(p1);
