@@ -10,11 +10,10 @@ namespace ListasFIFO
     {
         public int tiempo { get; set; }
         public Proceso siguiente { get; set; }
-        private static Random r = new Random();
 
-        public Proceso()
+        public Proceso(int time)
         {
-            tiempo = r.Next(4, 15);
+            tiempo = time;
         }
     }
 }
