@@ -8,7 +8,7 @@ namespace ListasFIFO
 {
     class Fifo
     {
-        private Proceso actual;
+        private Proceso actual, ultimo;
         private int _ciclosVacios = 0;
         public int ciclosVacios
         { 
@@ -26,13 +26,9 @@ namespace ListasFIFO
                 actual = p;
             else
             {
-                Proceso pr = actual;
-                while (pr.siguiente != null)
-                {
-                    pr = pr.siguiente;
-                }
-                pr.siguiente = p;
+                ultimo.siguiente = p;
             }
+            ultimo = p;
         }
 
         public void avanzar()
@@ -41,7 +37,7 @@ namespace ListasFIFO
                 _ciclosVacios++;
             else
             {
-                if (actual.tiempo == 0)
+                if (actual.tiempo == 1)
                     if (actual.siguiente != null)
                     {
                         actual = actual.siguiente;
